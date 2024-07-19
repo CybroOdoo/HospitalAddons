@@ -33,7 +33,7 @@
     "license": "AGPL-3",
     'category': 'Hospital',
     'version': '15.0.1.0.0',
-    'depends': ['base', 'base_hospital_management', 'hr', 'hospital_cleaning_shifts', 'board',
+    'depends': ['web', 'base_hospital_management', 'hr', 'hospital_cleaning_shifts', 'board',
                 ],
     'data': [
         'security/ir.model.access.csv',
@@ -43,7 +43,6 @@
         'views/cleaning_team.xml',
         'views/member_management.xml',
         'views/waste_management.xml',
-        # 'views/waste_transfers.xml',
         'views/waste_bin.xml',
         'views/cleaning_inspection.xml',
         'views/waste_request.xml',

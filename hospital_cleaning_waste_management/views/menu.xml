@@ -40,12 +40,6 @@
               action="waste_types_tree"
     />
 
-    <menuitem name="Transfer"
-              id="waste_transfer_management"
-              sequence="14"
-              parent="cleaning_waste_type_management"
-              action="waste_transfer_menu"
-    />
 
     <menuitem name="Bins"
               id="waste_bin_management"

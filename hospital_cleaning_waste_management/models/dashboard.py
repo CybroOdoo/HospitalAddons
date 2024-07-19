@@ -89,7 +89,6 @@ class EmployeeShift(models.Model):
         for record in data:
             count.append(record.get('count'))
         shift_count = [count, name]
-        print(shift_count,'shift_count')
         return shift_count
 
 

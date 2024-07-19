@@ -13,6 +13,9 @@ odoo.define('hospital_cleaning_waste_management.Dashboard', function (require) {
     var currency;
     var DashBoard = AbstractAction.extend({
         contentTemplate: 'Dashboard',
+        jsLibs: [
+        '/web/static/lib/Chart/Chart.js',
+        ],
         events: {
             'click .employees': 'employees',
             'click .teams': 'teams',
